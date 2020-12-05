@@ -6,10 +6,6 @@ import Debug.Trace (trace)    -- DEBUG
 -- import Data.Typeable (typeOf) -- DEBUG
 -- import Data.Foldable (foldr', foldl')
 import Data.Char  (intToDigit) -- digitToInt
-
--- For the following, need to run ghci as something like:
--- stack ghci --package pretty-tree  --package containers --package random
-
 import System.Random (RandomGen, randomR, randomRs, split, mkStdGen) -- package random
 import qualified Data.Tree (drawTree, Tree(Node)) -- package containers
 import qualified Data.Tree.Pretty (drawVerticalTree, drawVerticalTreeWith) -- package pretty-tree
