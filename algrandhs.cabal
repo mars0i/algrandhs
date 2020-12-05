@@ -14,7 +14,7 @@ bug-reports:    https://github.com/githubuser/algrandhs/issues
 author:         Marshall Abrams
 maintainer:     marshall@logical.net
 copyright:      2020 Marshall Abrams
-license:        GPL3
+license:        GPL-3
 license-file:   LICENSE
 build-type:     Simple
 extra-source-files:

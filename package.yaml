@@ -1,7 +1,7 @@
 name:                algrandhs
 version:             0.1.0.0
 github:              "mars0i/algrandhs"
-license:             GPL3
+license:             GPL-3
 author:              "Marshall Abrams"
 maintainer:          "marshall@logical.net"
 copyright:           "2020 Marshall Abrams"
