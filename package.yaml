@@ -20,6 +20,9 @@ description:         Please see the README on GitHub at <https://github.com/mars
 
 dependencies:
 - base >= 4.7 && < 5
+- containers
+- random
+- pretty-tree
 
 library:
   source-dirs: src
