@@ -1,0 +1,62 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: fafa28fbe82b43f3a6efe822d394d54203e8fabd8d81c1be5bcd4b54832f2d84
+
+name:           algrandhs
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/algrandhs#readme>
+homepage:       https://github.com/githubuser/algrandhs#readme
+bug-reports:    https://github.com/githubuser/algrandhs/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2020 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/algrandhs
+
+library
+  exposed-modules:
+      Lib
+  other-modules:
+      Paths_algrandhs
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
+
+executable algrandhs-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_algrandhs
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      algrandhs
+    , base >=4.7 && <5
+  default-language: Haskell2010
+
+test-suite algrandhs-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_algrandhs
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      algrandhs
+    , base >=4.7 && <5
+  default-language: Haskell2010
