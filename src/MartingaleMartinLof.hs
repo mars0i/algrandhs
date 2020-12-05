@@ -17,7 +17,7 @@ Downey and Hirschfeldt's (2010) Theorem 6.3.4, p. 236, which is their
 version of Schnorr's theorem that Martin-Löf randomness is equivalent
 to randomness defined by computably enumerable martingales.  In
 particular, a set of infinite sequences is Martin-Löf iff it contains
-no sequences such thagt a c.e. martingale would produce infinite
+no sequences such that a c.e. martingale would produce infinite
 profit betting on subsequent digits of such a sequence.
 
 In particular, in the M-L random -> martingale random direction of the
