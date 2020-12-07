@@ -11,8 +11,6 @@ import Data.Char  (intToDigit) -- digitToInt
 -- run ghci as something like:
 -- stack ghci --package pretty-tree  --package containers --package random
 import System.Random (RandomGen, randomR, randomRs, split, mkStdGen) -- package random
-import qualified Data.Tree (drawTree, Tree(Node)) -- package containers
-import qualified Data.Tree.Pretty (drawVerticalTree, drawVerticalTreeWith) -- package pretty-tree
 
 import BinaryTree -- my module
 
