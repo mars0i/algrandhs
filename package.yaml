@@ -23,6 +23,9 @@ dependencies:
 - containers
 - random
 - pretty-tree
+- mersenne-random-pure64
+- pcgen
+#- sfmt
 
 library:
   source-dirs: src
