@@ -25,7 +25,7 @@ dependencies:
 - pretty-tree
 - mersenne-random-pure64
 - pcgen
-#- sfmt
+- sfmt
 
 library:
   source-dirs: src
