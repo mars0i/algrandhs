@@ -19,11 +19,11 @@ euclid ri2 ri1 =
 
 
 -- | Helper function for extended Euclid's gcd algorithm, from 
--- McEliece _Finite Fields for Computer -- Scientists and Engineers_, p. 9.
+-- McEliece _Finite Fields for Computer Scientists and Engineers_, p. 9.
 -- Given arguments a, b, 1, 0, 0, 1 returns a triple (g, s, t) where 
 -- g is the GCD, and g = sa + tb.
--- Since the point of this is to show the algorithm in action, trace
--- output is built in.
+-- Since the point of this is to show the algorithm in action, detailed 
+-- trace output is built in.
 extender :: (Show t, Integral t) => t -> t -> t -> t -> t -> t -> (t, t, t)
 extender ri2 ri1 si2 si1 ti2 ti1 =
   let (qi, ri) = quotRem ri2 ri1
@@ -45,8 +45,8 @@ extender ri2 ri1 si2 si1 ti2 ti1 =
 
 
 -- | Extended Euclid's gcd algorithm, from 
--- McEliece _Finite Fields for Computer -- Scientists and Engineers_, p. 9.
+-- McEliece _Finite Fields for Computer Scientists and Engineers_, p. 9.
 -- Given arguments a, b, returns a triple (g, s, t) where g is the GCD,
--- and g = sa + tb.  (This function is really just a wrapper for extender.)
+-- and g = sa + tb.  (This function is just a wrapper for extender, q.v.)
 extendedEuclid :: (Show t, Integral t) => t -> t -> (t, t, t)
 extendedEuclid a b = extender a b 1 0 0 1
