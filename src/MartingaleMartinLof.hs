@@ -1,8 +1,8 @@
 module MartingaleMartinLof where  -- no exports qualififcation, so all exported
 
 import Data.List  (union, transpose, sortBy, isPrefixOf)
-import Debug.Trace (trace)    -- DEBUG
 import Data.Char  (intToDigit) -- digitToInt
+-- import Debug.Trace (trace)    -- DEBUG
 -- import Data.Typeable (typeOf) -- DEBUG
 -- import Data.Set (toList, fromList)
 -- import Data.Foldable (foldr', foldl')
