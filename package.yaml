@@ -26,6 +26,7 @@ dependencies:
 - mersenne-random-pure64
 - pcgen
 - sfmt
+# - finite-fields
 
 library:
   source-dirs: src
