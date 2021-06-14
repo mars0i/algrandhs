@@ -3,8 +3,8 @@ module Gcd where
 import Debug.Trace (trace)
 
 
--- Useful discussion of div, quot, mod, rem:
--- https://ebzzry.io/en/haskell-division/
+-- Useful discussion of Haskell's div, quot, mod, rem:
+-- https://ebzzry.io/en/haskell-division
 
 
 -- | Euclid's gcd algorithm, from 
